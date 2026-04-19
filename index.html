@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THERMO TEAM SM</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    background:#f5f7fa;
+}
+
+.hero{
+    background:#1d3557;
+    color:#fff;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+    font-weight:bold;
+}
+
+.section-title{
+    color:#1d3557;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.carousel-item img{
+    height:500px;
+    object-fit:cover;
+}
+
+.carousel-caption{
+    background:rgba(0,0,0,0.55);
+    padding:15px;
+    border-radius:10px;
+}
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href="#">THERMO TEAM SM</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="#">Početna</a></li>
+<li class="nav-item"><a class="nav-link" href="#usluge">Usluge</a></li>
+<li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h1>TRGOVINSKA RADNJA THERMO TEAM SM</h1>
+<p>Sremska Mitrovica | Grejanje, hlađenje i vodovodna oprema</p>
+</div>
+
+<!-- SLIDESHOW -->
+<div id="firmaCarousel" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#firmaCarousel" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#firmaCarousel" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#firmaCarousel" data-bs-slide-to="2"></button>
+</div>
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7" class="d-block w-100">
+<div class="carousel-caption">
+<h5>Grejanje</h5>
+<p>Kotlovi, radijatori i oprema za centralno grejanje</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a" class="d-block w-100">
+<div class="carousel-caption">
+<h5>Vodovod</h5>
+<p>Cevi, ventili, armature i instalacioni materijal</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64" class="d-block w-100">
+<div class="carousel-caption">
+<h5>Klima uređaji</h5>
+<p>Prodaja i oprema za hlađenje prostora</p>
+</div>
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#firmaCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#firmaCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+
+</div>
+
+<!-- USLUGE -->
+<div class="container py-5" id="usluge">
+<h2 class="text-center section-title">Naša ponuda</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow-sm h-100">
+<div class="card-body">
+<h5 class="card-title">Grejanje</h5>
+<p>Kotlovi, radijatori, pumpe i sav prateći materijal.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm h-100">
+<div class="card-body">
+<h5 class="card-title">Vodovod</h5>
+<p>Instalaciona oprema za kupatila i kuhinje.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm h-100">
+<div class="card-body">
+<h5 class="card-title">Klimatizacija</h5>
+<p>Klime, nosači, cevi i dodatna oprema.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- KONTAKT -->
+<div class="container py-5" id="kontakt">
+<h2 class="text-center section-title">Kontakt</h2>
+
+<div class="card shadow-sm p-4 text-center">
+<p>📍 Sremska Mitrovica, Srbija</p>
+<p>📞 Kontakt telefon</p>
+<p>🕒 Radno vreme po dogovoru</p>
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+© 2026 THERMO TEAM SM
+</footer>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    console.log("THERMO TEAM SM stranica učitana");
+});
+</script>
+
+</body>
+</html>
